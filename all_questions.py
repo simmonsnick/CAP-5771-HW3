@@ -119,9 +119,6 @@ def question3():
 
     return answers
 
-
-
-
 # -----------------------------------------------------------
 def question4():
     answers = {}
@@ -193,21 +190,21 @@ def question6():
     answers = {}
 
     # type: set
-    answers["(a) core"] = set('B', 'C', 'E', 'F', 'I', 'J', 'L', 'M')
+    answers["(a) core"] = set['B', 'C', 'E', 'F', 'I', 'J', 'L', 'M']
 
     # type: set
-    answers["(a) boundary"] = set('D', 'G')
+    answers["(a) boundary"] = set['D', 'G']
 
     # type: set
-    answers["(a) noise"] = set('A', 'H')
+    answers["(a) noise"] = set['A', 'H']
 
     # type: set
-    answers["(b) cluster 1"] = set('B', 'C', 'D', 'E', 'F', 'G')
+    answers["(b) cluster 1"] = set['B', 'C', 'D', 'E', 'F', 'G']
     #Since point A is the farthest I would consider the closest points in the first cluster.
     #This cluster has more data points.
 
     # type: set
-    answers["(b) cluster 2"] = set('I', 'J', 'L', 'M')
+    answers["(b) cluster 2"] = set['I', 'J', 'L', 'M']
     #Since point H is the farthest I would consider the closest points in the second cluster.
 
     # type: set
@@ -218,17 +215,17 @@ def question6():
     #There is no fourth cluster in figure 5.
 
     # type: set
-    answers["(c)-a core"] = set('B', 'C', 'E', 'F', 'I', 'J', 'L', 'M', 'D', 'G')
+    answers["(c)-a core"] = set['B', 'C', 'E', 'F', 'I', 'J', 'L', 'M', 'D', 'G']
 
     # type: set
-    answers["(c)-a boundary"] = set('A', 'H')
+    answers["(c)-a boundary"] = set['A', 'H']
 
     # type: set
     answers["(c)-a noise"] = set(None)
     # There's no point that is neither a core point nor a border point.
 
     # type: set
-    answers["(c)-b cluster 1"] = set('A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J')
+    answers["(c)-b cluster 1"] = set['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J']
     # All points are clustered in this figure.
 
     # type: set
@@ -244,9 +241,6 @@ def question6():
     # There's no fourth cluster in figure 5
 
     return answers
-
-
-
 
 # -----------------------------------------------------------
 def question7():
@@ -265,9 +259,6 @@ def question7():
     answers["(b) explain"] = "Cluster 1 has distinct values."
 
     return answers
-
-
-
 
 # -----------------------------------------------------------
 def question8():
@@ -327,8 +318,6 @@ def question8():
     return answers
 
 
-
-
 # -----------------------------------------------------------
 def question9():
     answers = {}
@@ -352,9 +341,6 @@ def question9():
     answers["(e) explain"] = "Can't be grouped with some student didn't get in the data mining class."
 
     return answers
-
-
-
 
 # -----------------------------------------------------------
 def question10():
