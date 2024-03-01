@@ -1,7 +1,3 @@
-import pickle
-
-
-# -----------------------------------------------------------
 def question1():
     answers = {}
     # a) Agglomerative hierarchical clustering procedures are better able to handle outliers than k-means.
@@ -74,8 +70,6 @@ def question1():
 
     return answers
 
-
-
 # -----------------------------------------------------------
 def question2():
     answers = {}
@@ -99,8 +93,6 @@ def question2():
     answers["(c) explain"] = "In Figure C, 12.5 seems to have point that is farthest away from any current cluster."
 
     return answers
-
-
 
 
 # -----------------------------------------------------------
@@ -161,9 +153,6 @@ def question4():
 
     return answers
 
-
-
-
 # -----------------------------------------------------------
 def question5():
     answers = {}
@@ -183,64 +172,63 @@ def question5():
     return answers
 
 
-
-
 # -----------------------------------------------------------
 def question6():
     answers = {}
 
     # type: set
-    answers["(a) core"] = set['B', 'C', 'E', 'F', 'I', 'J', 'L', 'M']
+    answers["(a) core"] = set(['B', 'C', 'E', 'F', 'I', 'J', 'L', 'M'])
 
     # type: set
-    answers["(a) boundary"] = set['D', 'G']
+    answers["(a) boundary"] = set(['D', 'G'])
 
     # type: set
-    answers["(a) noise"] = set['A', 'H']
+    answers["(a) noise"] = set(['A', 'H'])
 
     # type: set
-    answers["(b) cluster 1"] = set['B', 'C', 'D', 'E', 'F', 'G']
+    answers["(b) cluster 1"] = set(['B', 'C', 'D', 'E', 'F', 'G'])
     #Since point A is the farthest I would consider the closest points in the first cluster.
     #This cluster has more data points.
 
     # type: set
-    answers["(b) cluster 2"] = set['I', 'J', 'L', 'M']
+    answers["(b) cluster 2"] = set(['I', 'J', 'L', 'M'])
     #Since point H is the farthest I would consider the closest points in the second cluster.
 
     # type: set
-    answers["(b) cluster 3"] = set(None)
+    answers["(b) cluster 3"] = set()
     #There is no third cluster in figure 5.
     # type: set
-    answers["(b) cluster 4"] = set(None)
+    answers["(b) cluster 4"] = set()
     #There is no fourth cluster in figure 5.
 
     # type: set
-    answers["(c)-a core"] = set['B', 'C', 'E', 'F', 'I', 'J', 'L', 'M', 'D', 'G']
+    answers["(c)-a core"] = set(['B', 'C', 'E', 'F', 'I', 'J', 'L', 'M', 'D', 'G'])
 
     # type: set
-    answers["(c)-a boundary"] = set['A', 'H']
+    answers["(c)-a boundary"] = set(['A', 'H'])
 
     # type: set
-    answers["(c)-a noise"] = set(None)
+    answers["(c)-a noise"] = set()
     # There's no point that is neither a core point nor a border point.
 
     # type: set
-    answers["(c)-b cluster 1"] = set['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J']
+    answers["(c)-b cluster 1"] = set(['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J'])
     # All points are clustered in this figure.
 
     # type: set
-    answers["(c)-b cluster 2"] = set(None)
+    answers["(c)-b cluster 2"] = set()
     # There's no second cluster in figure 5
     
     # type: set
-    answers["(c)-b cluster 3"] = set(None)
+    answers["(c)-b cluster 3"] = set()
     # There's no third cluster in figure 5
 
     # type: set
-    answers["(c)-b cluster 4"] = set(None)
+    answers["(c)-b cluster 4"] = set()
     # There's no fourth cluster in figure 5
 
     return answers
+
 
 # -----------------------------------------------------------
 def question7():
@@ -250,15 +238,16 @@ def question7():
     answers["(a)"] = "Cluster 4"
 
     # type: explanatory string (at least four words)
-    answers["(a) explain"] = "Cluster 4 has less distinct values."
+    answers["(a) explain"] = "The cluster 4 has less distinct values."
 
     # type: string
     answers["(b)"] = "Cluster 1"
 
     # type: explanatory string (at least four words)
-    answers["(b) explain"] = "Cluster 1 has distinct values."
+    answers["(b) explain"] = "The cluster 1 has distinct values."
 
     return answers
+
 
 # -----------------------------------------------------------
 def question8():
@@ -292,16 +281,16 @@ def question8():
     answers["(a) explain non-diag entries, Matrix 3"] = "Most rows are similar but one different color are non diagonal. "
 
     # type: string
-    answers["(b) Row 1"] = "(1-100) cluster"
+    answers["(b) Row 1"] = "1-100 cluster"
 
     # type: string
-    answers["(b) Row 2"] = "(101-200) cluster"
+    answers["(b) Row 2"] = "101-200 cluster"
 
     # type: string
-    answers["(b) Row 3"] = "(201-300) cluster"
+    answers["(b) Row 3"] = "201-300 cluster"
 
     # type: string
-    answers["(b) Row 4"] = "(301-400) cluster"
+    answers["(b) Row 4"] = "301-400 cluster"
 
     # type: explanatory string (at least four words)
     answers["(b) Row 1 explain"] = "Cluster is less cohesive in diagonal entry, clusters have different distances."
@@ -342,6 +331,7 @@ def question9():
 
     return answers
 
+
 # -----------------------------------------------------------
 def question10():
     answers = {}
@@ -353,19 +343,19 @@ def question10():
     answers["(a) Figure (b)"] = "The points in nose, eyes, and mouth are much closer together and DBSCAN can work for this task."
 
     # type: explanatory string (at least four words)
-    answers["(a) explain"] = ""
+    answers["(a) explain"] = "DBSCAN can be use for every figure to identify the clusters."
 
     # type: string
-    answers["(b) Figure (a)"] = "K-means does not work for figure a."
+    answers["(b) Figure (a)"] = "In this figure, K-means does not work for figure a."
 
     # type: string
-    answers["(b) Figure (b)"] = "K-means does work for figure b."
+    answers["(b) Figure (b)"] = "In this figure, K-means does work for figure b."
 
     # type: explanatory string (at least four words)
-    answers["(b) explain"] = ""
+    answers["(b) explain"] = "You can't use K-mean for every figure with the placement in certain data point to the cluster."
 
     # type: string
-    answers["(c)"] = "The reciprocal of the density as the new density and use DBSCAN."
+    answers["(c)"] = "The reciprocal of the density being use in DBSCAN."
 
     return answers
 
