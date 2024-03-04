@@ -35,7 +35,7 @@ def question1():
     
     # When clustering a dataset using K-means, whenever SSE decreases, cohesion increases.
     # type: bool (True/False)
-    answers["(e)"] = -True
+    answers["(e)"] = True
 
     # type: explanatory string (at least four words)
     answers["(e) explain"] = "In K-means, SSE has a measure of the cohesion in clusters."
