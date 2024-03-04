@@ -164,7 +164,7 @@ def question5():
     answers["(a) explain"] = "Group A and B will be the smallest single link distance."
 
     # type: set
-    answers["(b)"] = set(['A','C'])
+    answers["(b)"] = set(['A', 'C'])
 
     # type: explanatory string (at least four words)
     answers["(b) explain"] = "Group A and C will be the complete link distance."
